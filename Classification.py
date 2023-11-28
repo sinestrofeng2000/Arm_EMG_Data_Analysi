@@ -8,6 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from Feature_Extraction import feature_extraction
 import matplotlib.pyplot as plt
 
+
 def SingleFeatureVectors(featureTables):
     """
     Docstring: Given a dictionary of feature tables in each of the 4 channels, this function outputs a 3d numpy array containing
@@ -26,6 +27,7 @@ def SingleFeatureVectors(featureTables):
     channel4 = featureTables[3].values
     SingleFeatureVectors = np.concatenate((channel1[:, :, None], channel2[:, :, None], channel3[:, :, None], channel4[:, :, None]), axis = 2)
     return SingleFeatureVectors
+
 
 def ConfMatForFeaturePairs(includedFeatures, singleFeatureVectors, labels):
     """
@@ -66,8 +68,6 @@ def ConfMatForFeaturePairs(includedFeatures, singleFeatureVectors, labels):
             display_lda.plot(cmap=plt.cm.Blues, values_format='d', xticks_rotation='vertical')
             plt.title('LDA for {}, {}'.format(includedFeatures[i], includedFeatures[j]))
             plt.show()
-
-
 
 
 if __name__ == '__main__':
