@@ -1,6 +1,6 @@
 # Arm_EMG_Data_Analysis
 Testing features for arm EMG data classifications
-### Feature Definitions and Mathematical Expressions
+### 1. Feature Definitions and Mathematical Expressions
 In the table below are the names and mathematical definitions of the features I tried for the classification of arm surface EMG signals:
 | Feature Name | Mathematical Expression|Definition |
 | ------------ | -----------------------|-----------|
@@ -11,7 +11,7 @@ In the table below are the names and mathematical definitions of the features I 
 | Mean Frequency | $$\mathrm{MNF} = \frac{{\sum \limits_{j=1}^M} f_j P_j}{\sum \limits_{j=1}^M P_j}$$ | The ratio of the sum of the product of the electromyography signal power spectrum and the frequency to the sum of the spectral intensities|
 | Frequency Ratio | $$\mathrm{FR}=\frac{\sum \limits_{j={LLC}}^{ULC} P_j}{\sum\limits_{j={LUC}}^{UUC} P_j}$$| The ratio of the low-frequency portion to the high-frequency portion of the myoelectric signal|
 
-### Histograms for Value Distribution of Single Features for Different Labels
+### 2. Histograms for Value Distribution of Single Features for Different Labels
 ![c1MAV](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c1_MAV.png)
 ![c1MNF](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c1_MNF.png)
 ![c1RMS](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c1_RMS.png)
@@ -40,4 +40,8 @@ In the table below are the names and mathematical definitions of the features I 
 ![c4Var](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c4_var.png)
 ![c4Waveform](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c4_waveformLength.png)
 
-### 
+### 3. Accuracies of KNN/LDA Models Trained on Single Features
+![Accuracies](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/AccuraciesPlot.png)
+The best performing features for both the KNN and LDA models are waveform length and mean absolute value. 
+
+
