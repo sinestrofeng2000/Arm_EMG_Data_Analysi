@@ -12,4 +12,32 @@ In the table below are the names and mathematical definitions of the features I 
 | Frequency Ratio | $$\mathrm{FR}=\frac{\sum \limits_{j={LLC}}^{ULC} P_j}{\sum\limits_{j={LUC}}^{UUC} P_j}$$| The ratio of the low-frequency portion to the high-frequency portion of the myoelectric signal|
 
 ### Histograms for Value Distribution of Single Features for Different Labels
+![c1MAV](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c1_MAV.png)
+![c1MNF](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c1_MNF.png)
+![c1RMS](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c1_RMS.png)
+![c1FrequencyRatio](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c1_frequencyRatio.png)
+![c1Var](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c1_var.png)
+![c1Waveform](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c1_waveformLength.png)
 
+![c2MAV](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c2_MAV.png)
+![c2MNF](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c2_MNF.png)
+![c2RMS](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c2_RMS.png)
+![c2FrequencyRatio](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c2_frequencyRatio.png)
+![c2Var](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c2_var.png)
+![c2Waveform](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c2_waveformLength.png)
+
+![c3MAV](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c3_MAV.png)
+![c3MNF](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c3_MNF.png)
+![c3RMS](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c3_RMS.png)
+![c3FrequencyRatio](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c3_frequencyRatio.png)
+![c3Var](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c3_var.png)
+![c3Waveform](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c3_waveformLength.png)
+
+![c4MAV](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c4_MAV.png)
+![c4MNF](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c4_MNF.png)
+![c4RMS](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c4_RMS.png)
+![c4FrequencyRatio](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c4_frequencyRatio.png)
+![c4Var](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c4_var.png)
+![c4Waveform](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/Histogram_Features/histogram_plot_c4_waveformLength.png)
+
+### 
