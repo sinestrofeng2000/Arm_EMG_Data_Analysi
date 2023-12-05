@@ -42,6 +42,7 @@ In the table below are the names and mathematical definitions of the features I 
 
 ### 3. Accuracies of KNN/LDA Models Trained on Single Features
 ![Accuracies](https://github.com/sinestrofeng2000/Arm_EMG_Data_Analysis/blob/main/AccuraciesPlot.png)
+
 The best performing features for both the KNN and LDA models are waveform length and mean absolute value. 
 
 
